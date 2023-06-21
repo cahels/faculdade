@@ -1,0 +1,97 @@
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+img{
+  width: 200px;
+}
+h1{
+  background-color: unset;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  font-style:normal;
+  font-weight: bolder;
+  color: burlywood;
+  
+  text-align:center;
+}
+nav{
+  
+  padding: 10px;
+  position: inherit;/*Herda posição do header*/
+
+
+
+}
+
+
+
+header{
+  background-color: white;
+  height: 100px;
+  text-align:center;
+  font:'Franklin Gothic Medium','Arial Narrow', Arial;
+}
+
+
+a{
+  text-decoration: none;
+  font-family: 'Comic Sans', Comic-Sans, Papyrus, sans-serif;
+  background-color: #ffb3b5;;
+}
+
+ul{
+  background-color: unset;
+}
+
+nav li{
+  list-style: none;
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+a:hover{
+  background-color: lightgoldenrodyellow;
+  color:lightgreen;
+  text-decoration: none;
+
+}
+
+main{
+  background-color: #ffb3b5;
+  height: 900%;
+  padding: 60px;
+  text-align: "center";
+}
+
+footer{
+  background-color: lightgoldenrodyellow;
+  height: 110px;
+  padding: 25px;
+}
+
+.container{
+  display:flex;
+  padding:10px;
+  height:900%;
+  background-color: pink;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  border-radius: 5px;
+  
+  width: 95%;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  margin: 10px;
+  font-size: larger;
+  
+  
+}
